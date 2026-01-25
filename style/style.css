@@ -1,0 +1,104 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=open_in_new');
+
+/* Set variables */
+:root {
+    /* Colors */
+    --color-bg: #F5E4D0;
+    --color-font: #111214;
+    --color-red: #FF2732;
+    --color-blue: #187CAE;
+    --color-dark-blue: #003F87;
+    --color-yellow: #EFCF2C;
+    --color-purple: #492950;
+
+    /* Fonts */
+    --font: 'Inknut Antiqua', 'Times New Roman', Times, serif;;
+    
+}
+
+
+
+/* --------Global Values-------- */
+
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-font);
+    font-family: var(--font);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Links */
+a {
+    color: var(--color-dark-blue);
+    text-decoration: none;
+
+    @media (prefers-contrast: more) {
+        text-decoration: underline;
+    }
+}
+
+a:active {
+    color: var(--color-purple);
+}
+
+a[target="_blank"]::after { /* External links */
+    font-family: 'Material Symbols Outlined';
+    content:"\e89e";
+    margin-left: 0.5ch;
+}
+
+a:hover {
+    color: var(--color-purple);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: var(--color-purple);
+}
+
+/* Header*/
+header {
+    padding: 1rem 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    list-style: none;
+    margin-left: 3rem;
+}
+
+header nav ul li:first-child {
+    margin: 0;
+}
+
+header nav ul li a {
+    color: var(--color-font);
+
+    @media (prefers-contrast: more) {
+        text-decoration: none;
+    }
+}
+
+header nav ul li a:visited {
+    color: var(--color-black);
+}
