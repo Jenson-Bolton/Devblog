@@ -110,13 +110,28 @@ header nav ul li a:visited {
 /* Footer */
 footer {
     color: var(--color-font);
+    border-top: 3px solid var(--color-font);
     font-family: var(--font-title);
     padding: 1rem 6rem;
+
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+}
+
+footer h1 {
+    margin-top: 0;
+}
+
+footer nav {
+    width: 50%;
+}
+
+footer nav ul {
+    margin: 0;
 }
 
 footer span {
+    width: 50%;
     font-family: var(--font);
 }
