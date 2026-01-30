@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "01 Sources/Automatic Generation of Game Content using a Graph-based Wave Function Collapse Algorithm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "Automatic Generation of Game Content using a Graph-based Wave Function Collapse Algorithm"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "666de8c52ad100fe",
@@ -183,9 +183,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "2dcfe4c7f14566ee",
+  "active": "3f4c4fe97ff2fca0",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "Welcome.md"
+    "01 Sources/Procedural Generation of Video Game Cities for Specific Video Game Genres Using WaveFunctionCollapse (WFC).md",
+    "01 Sources/Procedural Generation of Favela Layouts on Arbitrary Terrains.md",
+    "01 Sources/Procedural Floor Plan Generation for Simulations - Rooms and Corridors on Demand.md",
+    "01 Sources/Automatic Generation of Game Content using a Graph-based Wave Function Collapse Algorithm.md",
+    "Welcome.md",
+    "99 Archive",
+    "04 Writing",
+    "03 Concepts",
+    "02 Notes",
+    "01 Sources",
+    "00 Inbox",
+    "Untitled.canvas"
   ]
 }
