@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Sources/Automatic Generation of Game Content using a Graph-based Wave Function Collapse Algorithm.md",
+                "file": "01 Sources/Procedural Floor Plan Generation for Simulations - Rooms and Corridors on Demand.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Automatic Generation of Game Content using a Graph-based Wave Function Collapse Algorithm"
+              "title": "Procedural Floor Plan Generation for Simulations - Rooms and Corridors on Demand"
             }
           }
         ]
@@ -183,12 +183,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "3f4c4fe97ff2fca0",
+  "active": "2dcfe4c7f14566ee",
   "lastOpenFiles": [
+    "01 Sources/Automatic Generation of Game Content using a Graph-based Wave Function Collapse Algorithm.md",
     "01 Sources/Procedural Generation of Video Game Cities for Specific Video Game Genres Using WaveFunctionCollapse (WFC).md",
     "01 Sources/Procedural Generation of Favela Layouts on Arbitrary Terrains.md",
     "01 Sources/Procedural Floor Plan Generation for Simulations - Rooms and Corridors on Demand.md",
-    "01 Sources/Automatic Generation of Game Content using a Graph-based Wave Function Collapse Algorithm.md",
     "Welcome.md",
     "99 Archive",
     "04 Writing",
